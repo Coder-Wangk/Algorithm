@@ -4,6 +4,10 @@ public class QuickSort{
 	 * 类型：交换排序
 	 * 平均时间复杂度：O(nlogn)
 	 * 平均控件复杂度：O(nlogn)
+	 * param: 
+	 *   start 列表起始index
+	 *   end   列表结束index
+	 * 
 	 */
 	public static void quickSort(int[] array, int start, int end){
 		
@@ -11,7 +15,7 @@ public class QuickSort{
 		if(start >= end){
 			return;
 		}
-		//取第一个数设为key值，之后将数组中比它小的数放在它左边，将比它大的数放在它右边
+		//取第一个数设为key值，之后将列表中比它小的数放在它左边，将比它大的数放在它右边
 		int key = array[start];
 		
 		//设置左右游标
@@ -19,7 +23,7 @@ public class QuickSort{
 		
 		while(l < r){
 			
-			//  先从右边开始比较，如果该值不小于key，右游标前移
+			//  先从右边开始比较，如果该值大于等于key，右游标前移
 			while(l < r && array[r] >= key){
 				r--;;
 			}
@@ -30,8 +34,8 @@ public class QuickSort{
 				//左游标后移
 				l++;
 			}
-			//  再从左边开始比较，如果该值不大于key，左游标后移
-			while(l < r && array[l] <= key){
+			//  再从左边开始比较，如果该值小于key，左游标后移
+			while(l < r && array[l] < key){
 				l++;
 			}
 
