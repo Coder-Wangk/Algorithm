@@ -3,7 +3,7 @@ public class QuickSort{
 	 * 快速排序
 	 * 类型：交换排序
 	 * 平均时间复杂度：O(nlogn)
-	 * 平均控件复杂度：O(nlogn)
+	 * 平均空间复杂度：O(nlogn)
 	 * param: 
 	 *   start 列表起始index
 	 *   end   列表结束index
@@ -41,7 +41,7 @@ public class QuickSort{
 
 			if(l < r){
 				//找到比key大的值，赋值给右游标处的值
-				array[l] = array[r];
+				array[r] = array[l];
 				//右游标前移
 				r--;
 			}
@@ -55,3 +55,13 @@ public class QuickSort{
 		quickSort(array, l+1, end);
 	
 	}
+
+	public static void main(String[] args){
+		int[] array = {1,5,3,77,9,97,446,63,77,452,37,467,43,554,756,74,734,64,65,37,25};
+		quickSort(array, 0, array.length -1);
+		for(int i = 0; i < array.length -1; i++){
+			System.out.print(array[i] + " ");
+		}
+	}
+
+}
