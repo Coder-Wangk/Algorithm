@@ -38,7 +38,6 @@ public class MergeSort{
 		//如果两个数组长度不等，将较长数组中剩下的数放入合并后的数组中
 		while(i <= m){
 			temp[k++] = array[i++];
-		
 		}
 		while(j <= n){
 			temp[k++] = array[j++];

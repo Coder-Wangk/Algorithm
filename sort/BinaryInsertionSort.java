@@ -16,7 +16,6 @@ public class BinaryInsertionSort{
 		for(int i = 1; i <= end; i++){
 			left = 0;
 			right = i - 1;
-
 			//以二分法找到要插入的位置，减少了比较次数
 			while(left <= right){
 				mid = (left + right) / 2;

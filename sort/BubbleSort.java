@@ -14,7 +14,6 @@ public class BubbleSort{
 		int end = array.length - 1;
 		int temp;
 		boolean tag = true;
-		
 		for (int i = 0; i < end && tag; i++) {
 			tag = false;
 			//将较大的数依次冒泡到序列尾部

@@ -14,13 +14,10 @@ public class ShellSort{
 		int temp;
 		//计算增量
 		for (int increment = length / 2; increment >= 1; increment /= 2) {
-
 			//每个增量下，子序列数量
 			for(int i = 0; i < increment; i++){
-
 				//子序列插入排序
 				for(int j = i + increment; j < length; j += increment){
-					
 					for(int k = j ; k > i; k -= increment){
 						if(array[k] < array[k - increment]){
 							temp = array[k];
