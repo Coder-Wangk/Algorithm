@@ -36,7 +36,7 @@ public class ShellSort{
 	}
 
 	public static void main(String[] args) {
-		int[] array = {1,5,3,77,9,97,446,63,77,452,37,467,43,554,756,74,734,65,37,25};
+		int[] array = {1,5,3,77,9,97,446,63,77,452,37,467,43,554,756,74,734,64,65,37,25};
 		ShellSort(array);
 		for(int i = 0; i < array.length; i++){
 			System.out.print(array[i] + " ");

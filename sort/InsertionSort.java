@@ -1,4 +1,4 @@
-public class InsertSort{
+public class InsertionSort{
 	
 	/*
 	 * 直接插入排序

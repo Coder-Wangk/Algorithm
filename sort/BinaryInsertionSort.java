@@ -1,4 +1,4 @@
-public class BinaryInsertSort{
+public class BinaryInsertionSort{
 	
 	/*
 	 * 二分插入排序
