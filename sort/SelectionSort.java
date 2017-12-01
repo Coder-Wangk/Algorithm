@@ -1,10 +1,12 @@
-public class SelectSort{
+public class SelectionSort{
 	
 	/*
 	 * 直接选择排序
 	 * 类型：选择排序
-	 * 稳定
-	 * 时间复杂度： O(n^2)
+	 * 不稳定
+	 * 最优时间复杂度：O(n^2)
+	 * 最坏时间复杂度：O(n^2)
+	 * 平均时间复杂度：O(n^2)
 	 * 空间复杂度： O(1)
 	 *
 	 */

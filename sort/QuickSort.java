@@ -2,7 +2,9 @@ public class QuickSort{
 	/*
 	 * 快速排序
 	 * 类型：交换排序
-	 * 平均时间复杂度：O(nlogn)
+	 * 不稳定
+	 * 最优时间复杂度：O(nlogn)
+	 * 最坏时间复杂度：O(n^2)
 	 * 平均空间复杂度：O(nlogn)
 	 * param: 
 	 *   start 列表起始index

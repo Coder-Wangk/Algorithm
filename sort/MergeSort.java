@@ -2,7 +2,9 @@ public class MergeSort{
 	/*
 	 * 归并排序
 	 * 稳定
-	 * 时间复杂度： O(nlogn)
+	 * 最优时间复杂度：O(nlogn)
+	 * 最坏时间复杂度：O(nlogn)
+	 * 平均时间复杂度：O(nlogn)
 	 * 空间复杂度： O(1)
 	 *
 	 */
